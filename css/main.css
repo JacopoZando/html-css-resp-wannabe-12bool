@@ -1,0 +1,37 @@
+header {
+
+}
+
+h3 {
+  margin: 15px auto;
+}
+
+.row {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.row img {
+  max-height: 150px;
+}
+
+.grigio {
+  background-color: silver;
+}
+
+.title {
+  text-align: center;
+  min-height: 30px;
+
+}
+
+.livello-uno::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.secondorow img {
+
+  height: 200px;
+}
