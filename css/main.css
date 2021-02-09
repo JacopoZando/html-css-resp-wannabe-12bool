@@ -1,34 +1,51 @@
-header {
+/* GESTIONE DELLE SCRITTURE */
 
+
+h1 {
+  margin: 15px auto;
 }
 
 h3 {
   margin: 15px auto;
 }
 
+.title {
+  text-align: center;
+  min-height: 30px;
+}
+
+/* GESTIONE DELLE IMMAGINI */
 img {
   margin-top: 15px;
 }
 
-.img-sec-liv {
-  max-height: 150px;
+.row img {
+  max-height: 200px;
+  margin-top: 50px;
+}
+
+.row-sec-liv img {
+  height: 300px;
+}
+
+.row-terzo-liv img {
+  max-height: 250px;
 }
 
 .row {
   width: 100%;
 }
 
-.row img {
-  max-height: 150px;
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+/* GESTIONE DEI DIV */
 
 .grigio {
   background-color: #F9F9F9;
-}
-
-.title {
-  text-align: center;
-  min-height: 30px;
 
 }
 
@@ -38,7 +55,7 @@ img {
   clear: both;
 }
 
-.secondorow img {
-  min-width: 200px;
-
+.sottolineato {
+  border-bottom: 2px solid grey;
+  padding-bottom: 5px;
 }
